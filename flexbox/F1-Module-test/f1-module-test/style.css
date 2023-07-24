@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center; 
 }
-.left-nav span{
+.left-nav .item1{
     margin:3px;
     background: #323025;
     color: #DFD6C5;
@@ -33,7 +33,7 @@ body{
 }
 
 
-.left-nav div{
+.left-nav .left-button{
     margin:3px;
     background: #333333;
     color: #DFD6C5;
@@ -336,7 +336,7 @@ transition: 0.4s ease-in-out;
 .content3:hover #img4{  
     transform: scale(1.1);
  }
-.left-nav >div:hover {
+.left-nav >.left-button:hover {
     background-color:#B1A592;
     color:#333333;
     transform: scale(1.1);
